@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+:root {
+  --primary-color: #048e78;
+  --background-color: #012b25;
+  --white-color: #ffffff;
+  --heading-text: #000;
+  --text-color: #333;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.2%;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.6;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bg-header {
+  background-color: var(--background-color);
+}
+
+nav {
+  height: 9rem;
+}
+
+.navbar-brand {
+  font-size: 2.4rem;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  color: var(--primary-color);
+}
+
+.nav-link.cta {
+  background-color: var(--primary-color);
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.nav-link.cta:hover {
+  background-color: #05bba3;
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 5.2rem;
+  letter-spacing: -0.4px;
+  line-height: 1.2;
+}
+
+.hero-section {
+  padding: 1.3rem 0;
+}
+
+.hero-section p {
+  font-size: 1.8rem;
+  line-height: 1.7;
+
+  letter-spacing: 0.3px;
+}
+
+.btn {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  padding: 8px 24px;
+  font-size: 1.8rem;
+  border-radius: 6px;
+}
+
+.hero-img {
+  width: 100%;
+}
