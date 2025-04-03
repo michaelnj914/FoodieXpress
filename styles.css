@@ -111,3 +111,38 @@ h2 {
   font-size: 1.6rem;
   color: #777;
 }
+
+.feature .subheading {
+  font-size: 1.4rem;
+  display: inline-block;
+  margin-bottom: 0;
+  color: var(--primary-color);
+  font-weight: 600;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.feature .subheading::before {
+  position: absolute;
+  content: "";
+  top: 50%;
+  right: -55%;
+  transform: translateY(-50%);
+  width: 6rem;
+  height: 0.3rem;
+  margin-top: -0.1rem;
+  background: var(--primary-color);
+}
+
+.feature .subheading::after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  right: -60%;
+  /* transform: translateY(-50%); */
+  width: 6rem;
+  height: 0.3rem;
+  margin-top: -0.1rem;
+  background: var(--primary-color);
+}
